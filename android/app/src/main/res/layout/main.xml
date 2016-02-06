@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="248dp"
+        android:layout_height="244dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/dataChartButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Data Chart" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:text="Submit Form Data"
+        android:id="@+id/dataForm" />
+
+    <EditText
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:editable="false"
+        android:text="Rate the current environment" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
